@@ -1,0 +1,71 @@
+body {
+    font-size: medium;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container {
+    margin: auto;
+    width: 75%;
+}
+
+/* Logo */
+.logo {
+    /* margin: 0 auto; */
+    text-align: center;
+}
+
+/* Arama Alanı */
+.search-side {
+    text-align: center;
+    display: block;
+    background-color: #EEEEEE;
+}
+.btn {
+    padding: 5px;
+}
+
+/* Üçlü Kısım */
+.triple-side {
+    margin: 2px auto;
+    text-align: center;
+}
+
+.box {
+    float: left;
+    /* width: 33%; */
+    height: 80px;
+}
+
+.box:not(:last-child) {
+    margin-right: 7px;
+}
+
+.box:first-child {
+    width: 41%;
+}
+
+.box-width15 {
+    width: 16.75%;
+}
+
+.box-width43 {
+    width: 41%;
+}
+
+.bg-light {
+    background-color: rgb(126, 229, 218);
+}
+.bg-medium {
+    background-color: rgb(112, 204, 194);;
+}
+.bg-dark {
+    background-color: rgb(98, 179, 170);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+}
